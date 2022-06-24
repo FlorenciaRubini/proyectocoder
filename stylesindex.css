@@ -1,0 +1,166 @@
+@media screen and (min-width: 768px) {
+body{
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    padding: 1rem;
+    background-image: url(./img/Fondo.jpg);
+}
+
+.header,
+.footer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    line-height: 50px;
+}
+.titulo{
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid 5px rgb(143, 127, 87);
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+    font-size: x-large;  
+    padding: 20px;
+    text-align: center;
+}
+.logoParu{
+    position: absolute;
+}
+.nav{
+    font-style: oblique;
+    color: rgb(143, 127, 87);
+    line-height: calc(2);
+    padding: 20px;      
+    align-items: center;
+    text-align: center;
+}
+
+.main{
+    align-items: center;
+    text-align: center;
+}
+.imagen{
+    margin-top: 100px;
+    border-radius: 20px;
+    
+    
+}
+
+.articulo{
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    height: 150px;
+    width: 800px;
+    margin: auto;
+    line-height: calc(1,5);
+    border: 500px;color: rgb(143, 127, 87);
+    text-align: center;
+
+}
+.content{
+   text-align: center;
+   color: rgb(143, 127, 87);
+   text-shadow: #999;
+   font-style: italic;
+  
+}
+
+.logo{
+    border-radius: 50px;
+   
+}
+.section{
+    color: rgb(143, 127, 87);
+    margin-top: 20opx;
+    align-items: center;
+    text-align: center;
+}}
+/* Responsive Celular ---------------------------------------------------------------> */
+@media screen and (min-width: 320px) {
+body{
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    padding: 1rem;
+    background-image: url(./img/Fondo.jpg);
+}
+
+.header,
+.footer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    line-height: 50px;
+}
+.titulo{
+    border: solid 5px rgb(143, 127, 87);
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+    font-size: x-large;  
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+.logoParu{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+}
+.nav{
+    font-style: oblique;
+    color: rgb(143, 127, 87);
+    line-height: calc(2);
+    padding: 20px;      
+    align-items: center;
+    text-align: center;
+}
+
+.main{
+    align-items: center;
+    text-align: center;
+}
+.imagen{
+    margin-top: 100px;
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+       
+}
+
+.articulo{
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    height: 150px;
+    width: 800px;
+    margin: auto;
+    line-height: calc(1,5);
+    border: 500px;color: rgb(143, 127, 87);
+    text-align: center;
+    width: 300px;
+    margin-bottom: 100px;
+
+
+}
+.content{
+   text-align: center;
+   color: rgb(143, 127, 87);
+   text-shadow: #999;
+   font-style: italic;
+  
+}
+
+.logo{
+    border-radius: 50px;
+   
+}
+.section{
+    color: rgb(143, 127, 87);
+    margin-top: 20opx;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}}
